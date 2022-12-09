@@ -1,0 +1,2 @@
+- moet de view in logic kunnen veranderen (dynamiek zijn)
+- 
