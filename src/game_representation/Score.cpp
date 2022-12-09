@@ -4,7 +4,7 @@
 view::Score::Score(std::shared_ptr<logic::Score>& Score_model) {
 	_subject = Score_model;
 	_scoreText.setFont(view::Data::font);
-    _scoreText.setCharacterSize(50);
+    _scoreText.setCharacterSize(25);
     _scoreText.setFillColor(sf::Color::Black);
     _scoreText.setPosition(10, 20);
 }

@@ -12,7 +12,7 @@ view::Player::Player(const std::shared_ptr<logic::Player>& Player_model) {
 	_subject = Player_model;
     _sprite.setTexture(view::Data::rightTexture);
     _HPText.setFont(view::Data::font);
-    _HPText.setCharacterSize(50);
+    _HPText.setCharacterSize(25);
     _HPText.setFillColor(sf::Color::Green);
     _HPText.setPosition(10, 80);
 }
